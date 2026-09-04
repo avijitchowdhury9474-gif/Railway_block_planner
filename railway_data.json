@@ -1,0 +1,25 @@
+{
+  "route": "Chennai Central - Madurai Junction",
+  "stations": ["Chennai", "Villupuram", "Trichy", "Madurai"],
+  "trains": [
+    {
+      "id": "T101",
+      "name": "Vande Bharat Express",
+      "priority": "High",
+      "schedule": [
+        {"station": "Chennai", "departure": "06:00"},
+        {"station": "Villupuram", "arrival": "07:30", "departure": "07:32"},
+        {"station": "Trichy", "arrival": "09:15", "departure": "09:18"},
+        {"station": "Madurai", "arrival": "11:30"}
+      ]
+    }
+  ],
+  "maintenance_requests": [
+    {
+      "request_id": "M901",
+      "section": "Villupuram-Trichy",
+      "required_duration_hours": 2,
+      "preferred_window": "07:00-11:00"
+    }
+  ]
+}
